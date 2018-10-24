@@ -9,10 +9,12 @@ module Arbetsformedlingen
   module API
     # API client for matchning
     class MatchningClient
+      BASE_URL = 'http://api.arbetsformedlingen.se/af/v0/platsannonser/'.freeze
+
       attr_reader :request
 
       # Initialize client
-      def initialize(request: Request.new)
+      def initialize(request: Request.new(base_url: BASE_URL))
         @request = request
       end
 

@@ -25,6 +25,7 @@ module Arbetsformedlingen
         uri = URI("#{base_url}#{url}?#{URI.encode_www_form(query.to_a)}")
 
         http = Net::HTTP.new(uri.host, uri.port)
+        http.use_ssl = true if uri.scheme == "https"
 
         request = Net::HTTP::Get.new(uri)
         request['Content-Type'] = 'application/json'

@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.arbetsformedlingen.se/rest/matchning/rest/af/v1/matchning/matchningskriterier/yrkesomraden
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.arbetsformedlingen.se
+      Content-Type:
+      - application/json
+      Accept-Language:
+      - sv
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 24 Oct 2018 15:36:07 GMT
+      Server:
+      - WildFly/8
+      X-Powered-By:
+      - Undertow/1
+      Access-Control-Allow-Headers:
+      - X-JWT-Assertion, Origin, X-Requested-With, Content-Type, Accept, applicationId,
+        Requesting-Device-Id
+      Access-Control-Expose-Headers:
+      - Requesting-Device-Id
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json;charset=UTF-8
+      Access-Control-Allow-Methods:
+      - GET, OPTIONS, HEAD, PUT, POST, DELETE
+      Requesting-Device-Id:
+      - 19482a95-6fbf-4d20-8c37-5b3a0f159f6d
+      Vary:
+      - Accept-Encoding
+      X-Xss-Protection:
+      - '1'
+      Content-Length:
+      - '439'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3siaWQiOiIxIiwibmFtbiI6IkFkbWluaXN0cmF0aW9uLCBla29ub21pLCBqdXJpZGlrIiwidHlwIjoiWVJLRVNPTVJBREUifSx7ImlkIjoiMiIsIm5hbW4iOiJCeWdnIG9jaCBhbmzDpGdnbmluZyIsInR5cCI6IllSS0VTT01SQURFIn0seyJpZCI6IjIwIiwibmFtbiI6IkNoZWZlciBvY2ggdmVya3NhbWhldHNsZWRhcmUiLCJ0eXAiOiJZUktFU09NUkFERSJ9LHsiaWQiOiIzIiwibmFtbiI6IkRhdGEvSVQiLCJ0eXAiOiJZUktFU09NUkFERSJ9LHsiaWQiOiI1IiwibmFtbiI6IkbDtnJzw6Rsam5pbmcsIGlua8O2cCwgbWFya25hZHNmw7ZyaW5nIiwidHlwIjoiWVJLRVNPTVJBREUifSx7ImlkIjoiNiIsIm5hbW4iOiJIYW50dmVya3N5cmtlbiIsInR5cCI6IllSS0VTT01SQURFIn0seyJpZCI6IjciLCJuYW1uIjoiSG90ZWxsLCByZXN0YXVyYW5nLCBzdG9yaHVzaMOlbGwiLCJ0eXAiOiJZUktFU09NUkFERSJ9LHsiaWQiOiI4IiwibmFtbiI6IkjDpGxzby0gb2NoIHNqdWt2w6VyZCIsInR5cCI6IllSS0VTT01SQURFIn0seyJpZCI6IjkiLCJuYW1uIjoiSW5kdXN0cmllbGwgdGlsbHZlcmtuaW5nIiwidHlwIjoiWVJLRVNPTVJBREUifSx7ImlkIjoiMTAiLCJuYW1uIjoiSW5zdGFsbGF0aW9uLCBkcmlmdCwgdW5kZXJow6VsbCIsInR5cCI6IllSS0VTT01SQURFIn0seyJpZCI6IjQiLCJuYW1uIjoiS3JvcHBzLSBvY2ggc2vDtm5oZXRzdsOlcmQiLCJ0eXAiOiJZUktFU09NUkFERSJ9LHsiaWQiOiIxMSIsIm5hbW4iOiJLdWx0dXIsIG1lZGlhLCBkZXNpZ24iLCJ0eXAiOiJZUktFU09NUkFERSJ9LHsiaWQiOiIyMiIsIm5hbW4iOiJNaWxpdMOkcnQgYXJiZXRlIiwidHlwIjoiWVJLRVNPTVJBREUifSx7ImlkIjoiMTMiLCJuYW1uIjoiTmF0dXJicnVrIiwidHlwIjoiWVJLRVNPTVJBREUifSx7ImlkIjoiMTQiLCJuYW1uIjoiTmF0dXJ2ZXRlbnNrYXBsaWd0IGFyYmV0ZSIsInR5cCI6IllSS0VTT01SQURFIn0seyJpZCI6IjE1IiwibmFtbiI6IlBlZGFnb2dpc2t0IGFyYmV0ZSIsInR5cCI6IllSS0VTT01SQURFIn0seyJpZCI6IjEyIiwibmFtbiI6IlNhbmVyaW5nIG9jaCByZW5ow6VsbG5pbmciLCJ0eXAiOiJZUktFU09NUkFERSJ9LHsiaWQiOiIxNiIsIm5hbW4iOiJTb2NpYWx0IGFyYmV0ZSIsInR5cCI6IllSS0VTT01SQURFIn0seyJpZCI6IjE3IiwibmFtbiI6IlPDpGtlcmhldHNhcmJldGUiLCJ0eXAiOiJZUktFU09NUkFERSJ9LHsiaWQiOiIxOCIsIm5hbW4iOiJUZWtuaXNrdCBhcmJldGUiLCJ0eXAiOiJZUktFU09NUkFERSJ9LHsiaWQiOiIxOSIsIm5hbW4iOiJUcmFuc3BvcnQiLCJ0eXAiOiJZUktFU09NUkFERSJ9XQ==
+    http_version: 
+  recorded_at: Wed, 24 Oct 2018 15:36:07 GMT
+recorded_with: VCR 3.0.3

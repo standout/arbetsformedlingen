@@ -10,6 +10,7 @@ require 'arbetsformedlingen/api/results/soklista_result'
 
 # Sub-clients
 require 'arbetsformedlingen/api/matchning_client'
+require 'arbetsformedlingen/api/matchning_criteria_client'
 require 'arbetsformedlingen/api/ledigtarbete_client'
 
 module Arbetsformedlingen
