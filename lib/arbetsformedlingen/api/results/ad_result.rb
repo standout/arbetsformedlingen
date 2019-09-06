@@ -75,7 +75,7 @@ module Arbetsformedlingen
         Values::Workplace.new(
           name: data.fetch('arbetsplatsnamn'),
           postal: build_postal(data),
-          country: data.fetch('land'),
+          country: data.fetch('land', 'Sverige'),
           visit_address: data.fetch('besoksadress', nil),
           logotype_url: data.fetch('logotypurl', nil),
           website: data.fetch('hemsida', nil),
