@@ -84,7 +84,7 @@ module Arbetsformedlingen
           yrkesomradeid: occupation_field_id,
           sokdatum: normalize_date_to_iso8601(published_after),
           organisationsnummer: organization_number,
-        }
+        }.compact
 
         response = request.get('matchning', query: query)
 
